@@ -12,7 +12,7 @@ A condition statement is a logical operation that triggers different sections of
 
 If the light is green, go. If the light is yellow, slow down. If it is red, stop.
 
-If it's a 4-way stop intersection, take your turn. If you are the only stop sign, yield to traffice.
+If it's a 4-way stop intersection, take your turn. If you are the only stop sign, yield to traffic.
 
 If you are hungry, eat. Otherwise, do not eat.
 
@@ -122,4 +122,4 @@ For the second method I would type `hello_someone('some_name')`
 
 1. What questions do you have about methods in Ruby?
 
-I'm feeling pretty good about methods at the moment. I am familiar with coding and think methods are straight forward. I am more interested in classes and how to create methods within the context of proper OOP. 
+I'm feeling pretty good about methods at the moment. I am familiar with coding and think methods are straight forward. I am more interested in classes and how to create methods within the context of proper OOP.

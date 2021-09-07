@@ -10,8 +10,10 @@
   # if it is snowy, print "coat"
   # if it is icy, print "yak traks"
 
-  weather = 'rainy'
+weather = 'rainy'
 
+# put conditionals into a method to make testing easier
+def check_weather(weather)
   if weather == 'sunny'
     p "sunscreen"
   elsif weather == 'rainy'
@@ -23,9 +25,23 @@
   else
     p "good to go!"
   end
+end
+
+check_weather(weather)
 
 # Experiment with manipulating the value held in variable 'weather'
 # to print something other than 'coat'
+weather = 'sunny'
+check_weather(weather)
+
+weather = 'snowy'
+check_weather(weather)
+
+weather = 'icy'
+check_weather(weather)
+
+weather = 'frogs'
+check_weather(weather)
 
 
 ##################
@@ -67,6 +83,7 @@ end
 cups_of_flour = 1
 has_sauce = true
 
+# original version
 if not has_sauce
   puts "I cannot make pizza"
 else
