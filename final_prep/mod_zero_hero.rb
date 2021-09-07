@@ -153,9 +153,13 @@ superman = SuperHero.new('Superman', 'Super Strength', 26)
 batman = SuperHero.new('Bat Man', 'Cool Toys', 45)
 
 superman.say_name
+
+# print energy level before and after calling the maximize_energy method
 p superman.energy_level
 superman.maximize_energy
 p superman.energy_level
+
+# print power level before and after calling teh gain_power method
 p superman.power_level
 superman.gain_power(300)
 p superman.power_level
