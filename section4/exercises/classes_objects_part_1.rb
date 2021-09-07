@@ -13,29 +13,29 @@ class MyCar
     @year = year
     self.color = color
     @model = model
-    @speed = 0
+    @current_speed = 0
   end
 
-  # method to increase speed
+  # method to increase current_speed
   def speed_up(number)
-    @speed += number
+    @current_speed += number
     puts "Vroom vroooooom....."
   end
 
   # method to decrease speed
   def brake(number)
-    @speed -= number
+    @current_speed -= number
     puts "skreeeech"
   end
 
   # method to show speed of car
   def speed
-    puts "Your car is traveling at #{@speed} mph."
+    puts "Your car is traveling at #{@current_speed} mph."
   end
 
   #create shut the car off method
   def shut_off()
-    @speed = 0
+    @current_speed = 0
     puts "It's all shut down now."
   end
 
@@ -43,4 +43,5 @@ class MyCar
   def spreay_paint(color)
     self.color = color
     puts "Your car has now been repainted #{color}"
+  end
 end

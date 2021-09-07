@@ -24,12 +24,19 @@ class Person
   end
 end
 
+# create Person
 leland_curtis = Person.new("Leland", "Curtis", "brown", "brown")
+
+# print initial values of this person
 p leland_curtis.first_name
 p leland_curtis.last_name
 p leland_curtis.eye_color
 p leland_curtis.hair_color
+
+# change hair color
 leland_curtis.dye_hair('pink')
 p leland_curtis.hair_color
+
+# change eye color
 leland_curtis.creepy_contacts('red')
 p leland_curtis.eye_color

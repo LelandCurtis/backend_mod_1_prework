@@ -6,6 +6,7 @@
 
 class Burrito
   attr_reader :protein, :base, :toppings
+
   def initialize(protein, base, toppings)
     @protein  = protein
     @base     = base
@@ -13,7 +14,7 @@ class Burrito
   end
 
   def add_topping(topping)
-    @toppings.push(topping) # for other variables I would use self.toppings = xxx to set. How does this work for arrays?
+    @toppings.push(topping)
   end
 
   def remove_topping(topping)
@@ -26,12 +27,19 @@ class Burrito
 end
 
 dinner = Burrito.new("Beans", "Rice", ["cheese", "salsa", "guacamole"])
+
 p dinner.protein
 p dinner.base
 p dinner.toppings
+
+# add topping
 dinner.add_topping("sour cream")
 p dinner.toppings
+
+# remove topping
 dinner.remove_topping("cheese")
 p dinner.toppings
+
+# change protein
 dinner.change_protein("chorizo")
 p dinner.protein

@@ -12,11 +12,14 @@ class Student
     7
   end
 
-
 end
 
 # instansiate an object of class Student
 frank = Student.new
+
+# print attributes of student
 frank.first_name = "Frank"
 frank.introduction('Katrina')
+
+# use attributes in a sentance
 puts "Frank's favorite number is #{frank.favorite_number}."
