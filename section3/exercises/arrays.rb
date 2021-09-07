@@ -30,12 +30,22 @@ puts animals.length
 
 # YOU DO: Write code that will reassign the last item in the animals
 # array to "Gorilla"
-animals[animals.length-1] = "Gorilla"
+animals[-1] = "Gorilla"
+p animals
 
 # YOU DO: Write code that will add a new animal (type of your choice) to position 3.
 animals[3] = "T-Rex"
 
 # YOU DO: Write code that will print the String "Elephant" in the animals array
+# I can think of two ways to do this depending on what the quesiton is getting at.
+# Option #1: Elephant is no longer in the array. I could try to print it if it exists as shown below.
+if animals.include?('Elephant')
+  puts animals[animals.find_index('Elephant')]
+else
+  puts "Elephant is not in the array"
+end
+
+# Option #2. Add Elephant back in and print that.
 animals[3] = "Elephant"
 puts animals[3]
 
@@ -54,26 +64,23 @@ puts foods.length
 # YOU DO: Write code below that uses a method to add "broccoli" to the foods array and
 # print the changed array to verify "broccoli" has been added
 foods.push('broccoli')
-print foods
-puts ''
+p foods
 
 # YOU DO: Write code below that removes the last item of food from the foods array and
 # print the changed array to verify that item has been removed
 foods.pop
-print foods
-puts ''
+p foods
 
 # YOU DO: Write code to add 3 new foods to the array.
   # There are several ways to do this - choose whichever you'd like!
 foods.concat(['lettuce', 'steak', 'chicken'])
 
 # Then, print the changed array to verify the new items have been added
-print foods
-puts ''
+p foods
+
 # YOU DO: Remove the food that is in index position 0.
 foods.shift
-print foods
-puts ''
+p foods
 #-------------------
 # PART 3: Where are Arrays used?
 #-------------------

@@ -28,7 +28,6 @@ p zoo.values
 # Write code that prints the value of the first animal of the zoo variable
 # you created above:
 p zoo[:zebra]
-#p zoo['zebra']
 
 
 # Write code that adds an animal to the zoo hash.
@@ -48,7 +47,13 @@ p zoo
 
 # Declare a variable that stores hash. Each key should be an attribute of an email and each
 # value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
-email_attr = {sender: 'Tom@gmail.com', reciever: 'me.gmail.com', read: true, date_sent: 'Monday', ccd: 'Bob@gmail.com'}
+email_attr = {
+  sender: 'Tom@gmail.com',
+  reciever: 'me.gmail.com',
+  read: true,
+  date_sent: 'Monday',
+  ccd: 'Bob@gmail.com'
+}
 
 # Write code that prints your email hash to the terminal.
 p email_attr
