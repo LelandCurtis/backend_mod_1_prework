@@ -43,4 +43,4 @@ The chomps method gets an input from a user.
 1. Name and describe two common string methods:
 
 `string.length` returns the number of characters in the string.
-`string.lstrip` removes the leading whitespace from a string
+`string.lstrip` removes the leading whitespace from a string.

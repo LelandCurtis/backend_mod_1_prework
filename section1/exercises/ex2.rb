@@ -1,3 +1,5 @@
+# Learning Ruby the Hard Way: Exercise 2 - Comments and Pound Characters
+
 # A comment, this is so you can read your program later.
 # Anything after the # is ignored by ruby.
 

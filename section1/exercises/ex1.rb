@@ -1,3 +1,5 @@
+#Learning Ruby the Hard Way: Exercise 1 - A Good First Program
+
 #5=begin
 puts "Hello World!"
 puts "Hello Again"

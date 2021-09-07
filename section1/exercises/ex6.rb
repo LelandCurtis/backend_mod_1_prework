@@ -1,3 +1,5 @@
+# Learning Ruby the Hard Way: Exercise 6 - Strings and Text
+
 #create a variable and assigna value
 types_of_people = 10
 # create a variable and assign a string to it. This string will update based on teh types_of_people variable.

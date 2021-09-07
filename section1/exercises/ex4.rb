@@ -1,3 +1,5 @@
+# Learning Ruby the Hard Way: Exercise 4 - Variables and Names
+
 # There are 100 cars.
 cars = 100
 
@@ -27,8 +29,8 @@ puts "There are #{cars} cars available."
 puts "There are only #{drivers} drivers available."
 puts "There will be #{cars_not_driven} empty cars today."
 puts "We can transport #{carpool_capacity} people today."
-puts "We have #{passengers} to carpool today"
-puts "We need to put about #{average_passengers_per_car} in each car"
+puts "We have #{passengers} to carpool today."
+puts "We need to put about #{average_passengers_per_car} in each car."
 
 
 #Text below responds to the study drills in Excercise 4.
